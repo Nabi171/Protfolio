@@ -1,0 +1,125 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+font-size: 50px;
+
+
+}
+.web{
+    color: orange;
+}
+.web:hover{
+    color: rgb(82, 55, 6);
+    transition: 0.8s linear;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 140px;
+}
+.half-width{
+width: 50%;
+padding-left: 5%;
+}
+.web1 img{
+    width: 100%;
+}
+.link_button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.link_button:hover{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    padding: 12px 43px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    transition: .7s linear;
+}
+
+
+
+
+.top-banner{
+background-image: url(images/top-banner.png);
+background-repeat: no-repeat;
+
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exp-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+ 
+}
+.exp-item:hover{
+    width: 50%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 15px;
+    box-shadow: 15px 15px 50px rgb(80, 76, 76);
+    transition: .8s linear;
+    border-radius: 15px;
+}
+.exp
+h2{
+    font-size: 40px;
+}
+.experience-area{
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#wxyz{
+
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#wxyzn{
+
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
+p{
+    text-justify: newspaper;
+    color: brown;
+}
+p:hover{
+    text-justify: newspaper;
+    color: black;
+    transition: .8s linear;
+}
+hr{
+
+    height: 6px;
+    width: 78%;
+    background-color: brown;
+    margin-right: 64%;
+}
+hr:hover{
+    height: 8px;
+    width: 90%;
+    background-color: rgb(83, 6, 6);
+    margin-right: 64%;
+    transition: 1s ease-in-out;
+}
